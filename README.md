@@ -12,6 +12,6 @@ Librerias necesarias: tkinter-selenium-time-pyautogui-os-boto3-io-collections-th
 
 2. Ejecutar por terminal el script EZoom.py
 
-   --> 2.1 Completar el primer labels con el link del Zoom. 
-   --> 2.2 Completar el segundo labels con el número de participantes aburridos para que emita una alerta (Umbral).
+   --> 2.1 Completar el primer label con el link del Zoom. 
+   --> 2.2 Completar el segundo label con el número de participantes aburridos para que emita una alerta (Umbral) por defecto 2.
    --> 2.3 Hacer click en "Iniciar Zoom" para ingresar a la reunión. Tener en cuenta que una vez que se abra la pantalla de zoom, usted no debe intervenir en la ejecución ya que la app hace la navegación en forma automática.
