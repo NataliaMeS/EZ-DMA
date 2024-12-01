@@ -2,7 +2,7 @@
 
 # Grupo 2 - Santesteban/Sincosky/Fierro
 
-Se genero una app que monitorea en tiempo real el estado emocional de los participantes en reuniones de Zoom, ayudando a los oradores a detectar señales de desinterés y así poder cambiar el rumbo de la presentación. Tiene una interfaz que permite ingresar el enlace de la reunión e indicar el número de participantes "aburridos" necesarios para activar una alerta. Utiliza Selenium para realizar la navegación automática y unirse al Zoom y AWS REKOGNITION para detectar las emociones faciales en las capturas que se realizan en él. Para este caso las emociones a detectar son: neutral, alegría, confusión, sorpresa, calma y disgustado pero podriamos indicar otras. Además cuanto estas persisten, superando el umbral definido (partipantes "aburridos") emite una alerta, luego de esta los contadores se reinician.
+Se genero una app que monitorea en tiempo real el estado emocional de los participantes en reuniones de Zoom, ayudando a los oradores a detectar señales de desinterés y así poder cambiar el rumbo de la presentación. Tiene una interfaz que permite ingresar el enlace de la reunión e indicar el número de participantes "aburridos" necesarios para activar una alerta. Utiliza Selenium para realizar la navegación automática y unirse al Zoom y AWS REKOGNITION para detectar las emociones faciales en las capturas que se realizan en él. Para este caso las emociones a detectar son: neutral, alegría, confusión, sorpresa, calma y disgustado pero se podrían adicionar otras. Además cuanto estas persisten, superando el umbral definido (partipantes "aburridos") emite una alerta, luego de esta los contadores se reinician.
 
 ## Workflow.
 
